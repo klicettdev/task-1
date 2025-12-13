@@ -5,7 +5,7 @@ import { network } from "hardhat";
 
 describe("MiPrimerContrato", async function () {
   const { viem } = await network.connect();
-  const publicClient = await viem.getPublicClient();
+  //   const publicClient = await viem.getPublicClient();
 
   let miPrimerContrato: any;
 
